@@ -1,0 +1,66 @@
+
+07:28:04.281 [task-scheduler-1] ERROR o.s.i.handler.LoggingHandler org.springframework.web.client.HttpClientErrorException: 401 Unauthorized
+07:28:04.603 [http-nio-3005-exec-1] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is com.finleapconnect.figo.gateway.FigoClientException: An error occurred while communicating with Figo, reason: FigoError{code=40001, description='Bank unknown', group='figo', message='This bank code is unknown to us, or doesn't operate in this country.', name='Not Found'}] with root cause
+07:28:05.320 [http-nio-3005-exec-2] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is com.finleapconnect.figo.gateway.FigoClientException: An error occurred while communicating with Figo, reason: FigoError{code=40001, description='Bank unknown', group='figo', message='This bank code is unknown to us, or doesn't operate in this country.', name='Not Found'}] with root cause
+07:28:46.985 [http-nio-3005-exec-4] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is com.finleapconnect.figo.gateway.FigoClientException: An error occurred while communicating with Figo, reason: FigoError{code=40001, description='Bank unknown', group='figo', message='This bank code is unknown to us, or doesn't operate in this country.', name='Not Found'}] with root cause
+07:28:47.670 [http-nio-3005-exec-5] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is com.finleapconnect.figo.gateway.FigoClientException: An error occurred while communicating with Figo, reason: FigoError{code=40001, description='Bank unknown', group='figo', message='This bank code is unknown to us, or doesn't operate in this country.', name='Not Found'}] with root cause
+07:34:20.160 [http-nio-3005-exec-2] ERROR c.f.figo.gateway.FigoErrorHandler An error occurred while communicating with Figo, reason: FigoError{code=40001, description='Bank unknown', group='figo', message='This bank code is unknown to us, or doesn't operate in this country.', name='Not Found'}
+07:34:20.773 [http-nio-3005-exec-3] ERROR c.f.figo.gateway.FigoErrorHandler An error occurred while communicating with Figo, reason: FigoError{code=40001, description='Bank unknown', group='figo', message='This bank code is unknown to us, or doesn't operate in this country.', name='Not Found'}
+07:34:27.043 [http-nio-3005-exec-4] ERROR c.f.figo.gateway.FigoErrorHandler An error occurred while communicating with Figo, reason: FigoError{code=40001, description='Bank unknown', group='figo', message='This bank code is unknown to us, or doesn't operate in this country.', name='Not Found'}
+07:34:27.678 [http-nio-3005-exec-5] ERROR c.f.figo.gateway.FigoErrorHandler An error occurred while communicating with Figo, reason: FigoError{code=40001, description='Bank unknown', group='figo', message='This bank code is unknown to us, or doesn't operate in this country.', name='Not Found'}
+07:34:33.775 [http-nio-3005-exec-6] ERROR c.f.figo.gateway.FigoErrorHandler An error occurred while communicating with Figo, reason: FigoError{code=40001, description='Bank unknown', group='figo', message='This bank code is unknown to us, or doesn't operate in this country.', name='Not Found'}
+07:37:04.508 [task-scheduler-6] ERROR o.s.i.handler.LoggingHandler org.springframework.web.client.HttpClientErrorException: 401 Unauthorized
+07:40:04.590 [task-scheduler-3] ERROR o.s.i.handler.LoggingHandler org.springframework.web.client.HttpClientErrorException: 401 Unauthorized
+07:52:04.953 [task-scheduler-7] ERROR o.s.i.handler.LoggingHandler org.springframework.web.client.HttpClientErrorException: 401 Unauthorized
+07:55:09.599 [task-scheduler-4] ERROR o.s.i.handler.LoggingHandler org.springframework.web.client.HttpClientErrorException: 401 Unauthorized
+07:58:09.659 [task-scheduler-3] ERROR o.s.i.handler.LoggingHandler org.springframework.web.client.HttpClientErrorException: 401 Unauthorized
+08:01:09.739 [task-scheduler-9] ERROR o.s.i.handler.LoggingHandler org.springframework.web.client.HttpClientErrorException: 401 Unauthorized
+08:04:09.847 [task-scheduler-5] ERROR o.s.i.handler.LoggingHandler org.springframework.web.client.HttpClientErrorException: 401 Unauthorized
+08:07:09.966 [task-scheduler-7] ERROR o.s.i.handler.LoggingHandler org.springframework.web.client.HttpClientErrorException: 401 Unauthorized
+08:10:10.067 [task-scheduler-4] ERROR o.s.i.handler.LoggingHandler org.springframework.web.client.HttpClientErrorException: 401 Unauthorized
+08:19:10.335 [task-scheduler-5] ERROR o.s.i.handler.LoggingHandler org.springframework.web.client.HttpClientErrorException: 401 Unauthorized
+08:22:10.418 [task-scheduler-5] ERROR o.s.i.handler.LoggingHandler org.springframework.web.client.HttpClientErrorException: 401 Unauthorized
+08:31:10.640 [task-scheduler-8] ERROR o.s.i.handler.LoggingHandler org.springframework.web.client.HttpClientErrorException: 401 Unauthorized
+08:40:16.705 [task-scheduler-4] ERROR o.s.i.handler.LoggingHandler org.springframework.web.client.HttpClientErrorException: 401 Unauthorized
+08:46:16.806 [task-scheduler-8] ERROR o.s.i.handler.LoggingHandler org.springframework.web.client.HttpClientErrorException: 401 Unauthorized
+08:49:16.908 [task-scheduler-10] ERROR o.s.i.handler.LoggingHandler org.springframework.web.client.HttpClientErrorException: 401 Unauthorized
+08:52:17.020 [task-scheduler-10] ERROR o.s.i.handler.LoggingHandler org.springframework.web.client.HttpClientErrorException: 401 Unauthorized
+09:01:17.251 [task-scheduler-5] ERROR o.s.i.handler.LoggingHandler org.springframework.web.client.HttpClientErrorException: 401 Unauthorized
+09:10:17.484 [task-scheduler-1] ERROR o.s.i.handler.LoggingHandler org.springframework.web.client.HttpClientErrorException: 401 Unauthorized
+09:13:17.541 [task-scheduler-6] ERROR o.s.i.handler.LoggingHandler org.springframework.web.client.HttpClientErrorException: 401 Unauthorized
+09:16:17.684 [task-scheduler-5] ERROR o.s.i.handler.LoggingHandler org.springframework.web.client.HttpClientErrorException: 401 Unauthorized
+09:25:17.923 [task-scheduler-6] ERROR o.s.i.handler.LoggingHandler org.springframework.web.client.HttpClientErrorException: 401 Unauthorized
+09:28:18.010 [task-scheduler-6] ERROR o.s.i.handler.LoggingHandler org.springframework.web.client.HttpClientErrorException: 401 Unauthorized
+09:34:18.666 [task-scheduler-7] ERROR o.s.i.handler.LoggingHandler org.springframework.web.client.HttpClientErrorException: 401 Unauthorized
+09:37:18.733 [task-scheduler-10] ERROR o.s.i.handler.LoggingHandler org.springframework.web.client.HttpClientErrorException: 401 Unauthorized
+09:45:44.179 [http-nio-3005-exec-9] ERROR c.f.figo.gateway.FigoErrorHandler An error occurred while communicating with Figo, reason: FigoError{code=40001, description='Bank unknown', group='figo', message='This bank code is unknown to us, or doesn't operate in this country.', name='Not Found'}
+09:45:44.885 [http-nio-3005-exec-10] ERROR c.f.figo.gateway.FigoErrorHandler An error occurred while communicating with Figo, reason: FigoError{code=40001, description='Bank unknown', group='figo', message='This bank code is unknown to us, or doesn't operate in this country.', name='Not Found'}
+09:49:19.011 [task-scheduler-8] ERROR o.s.i.handler.LoggingHandler org.springframework.web.client.HttpClientErrorException: 401 Unauthorized
+09:55:19.175 [task-scheduler-2] ERROR o.s.i.handler.LoggingHandler org.springframework.web.client.HttpClientErrorException: 401 Unauthorized
+09:57:48.422 [http-nio-3005-exec-2] ERROR c.f.figo.gateway.FigoErrorHandler An error occurred while communicating with Figo, reason: FigoError{code=40001, description='Bank unknown', group='figo', message='This bank code is unknown to us, or doesn't operate in this country.', name='Not Found'}
+09:57:48.962 [http-nio-3005-exec-3] ERROR c.f.figo.gateway.FigoErrorHandler An error occurred while communicating with Figo, reason: FigoError{code=40001, description='Bank unknown', group='figo', message='This bank code is unknown to us, or doesn't operate in this country.', name='Not Found'}
+09:58:19.246 [task-scheduler-2] ERROR o.s.i.handler.LoggingHandler org.springframework.web.client.HttpClientErrorException: 401 Unauthorized
+10:04:19.448 [task-scheduler-8] ERROR o.s.i.handler.LoggingHandler org.springframework.web.client.HttpClientErrorException: 401 Unauthorized
+10:07:19.518 [task-scheduler-9] ERROR o.s.i.handler.LoggingHandler org.springframework.web.client.HttpClientErrorException: 401 Unauthorized
+10:16:24.729 [task-scheduler-3] ERROR o.s.i.handler.LoggingHandler org.springframework.web.client.HttpClientErrorException: 401 Unauthorized
+10:28:25.053 [task-scheduler-7] ERROR o.s.i.handler.LoggingHandler org.springframework.web.client.HttpClientErrorException: 401 Unauthorized
+10:31:25.113 [task-scheduler-2] ERROR o.s.i.handler.LoggingHandler org.springframework.web.client.HttpClientErrorException: 401 Unauthorized
+10:34:25.169 [task-scheduler-4] ERROR o.s.i.handler.LoggingHandler org.springframework.web.client.HttpClientErrorException: 401 Unauthorized
+10:39:04.003 [http-nio-3005-exec-1] ERROR c.f.figo.gateway.FigoErrorHandler An error occurred while communicating with Figo, reason: FigoError{code=40001, description='Bank unknown', group='figo', message='This bank code is unknown to us, or doesn't operate in this country.', name='Not Found'}
+10:39:04.602 [http-nio-3005-exec-2] ERROR c.f.figo.gateway.FigoErrorHandler An error occurred while communicating with Figo, reason: FigoError{code=40001, description='Bank unknown', group='figo', message='This bank code is unknown to us, or doesn't operate in this country.', name='Not Found'}
+10:40:29.790 [task-scheduler-1] ERROR o.s.i.handler.LoggingHandler org.springframework.web.client.HttpClientErrorException: 401 Unauthorized
+10:43:29.849 [task-scheduler-1] ERROR o.s.i.handler.LoggingHandler org.springframework.web.client.HttpClientErrorException: 401 Unauthorized
+10:49:29.970 [task-scheduler-4] ERROR o.s.i.handler.LoggingHandler org.springframework.web.client.HttpClientErrorException: 401 Unauthorized
+10:52:30.065 [task-scheduler-4] ERROR o.s.i.handler.LoggingHandler org.springframework.web.client.HttpClientErrorException: 401 Unauthorized
+11:04:30.349 [task-scheduler-4] ERROR o.s.i.handler.LoggingHandler org.springframework.web.client.HttpClientErrorException: 401 Unauthorized
+11:07:30.450 [task-scheduler-4] ERROR o.s.i.handler.LoggingHandler org.springframework.web.client.HttpClientErrorException: 401 Unauthorized
+11:15:35.691 [http-nio-3005-exec-10] ERROR c.f.figo.gateway.FigoErrorHandler An error occurred while communicating with Figo, reason: FigoError{code=40001, description='Bank unknown', group='figo', message='This bank code is unknown to us, or doesn't operate in this country.', name='Not Found'}
+11:15:36.307 [http-nio-3005-exec-1] ERROR c.f.figo.gateway.FigoErrorHandler An error occurred while communicating with Figo, reason: FigoError{code=40001, description='Bank unknown', group='figo', message='This bank code is unknown to us, or doesn't operate in this country.', name='Not Found'}
+11:16:38.852 [task-scheduler-10] ERROR o.s.i.handler.LoggingHandler org.springframework.web.client.HttpClientErrorException: 401 Unauthorized
+11:25:39.054 [task-scheduler-4] ERROR o.s.i.handler.LoggingHandler org.springframework.web.client.HttpClientErrorException: 401 Unauthorized
+11:34:39.315 [task-scheduler-3] ERROR o.s.i.handler.LoggingHandler org.springframework.web.client.HttpClientErrorException: 401 Unauthorized
+11:40:39.519 [task-scheduler-4] ERROR o.s.i.handler.LoggingHandler org.springframework.web.client.HttpClientErrorException: 401 Unauthorized
+11:49:39.711 [task-scheduler-9] ERROR o.s.i.handler.LoggingHandler org.springframework.web.client.HttpClientErrorException: 401 Unauthorized
+11:52:39.790 [task-scheduler-9] ERROR o.s.i.handler.LoggingHandler org.springframework.web.client.HttpClientErrorException: 401 Unauthorized
+11:53:32.478 [http-nio-3005-exec-10] ERROR c.f.figo.gateway.FigoErrorHandler An error occurred while communicating with Figo, reason: FigoError{code=40001, description='Bank unknown', group='figo', message='This bank code is unknown to us, or doesn't operate in this country.', name='Not Found'}
+11:53:33.062 [http-nio-3005-exec-1] ERROR c.f.figo.gateway.FigoErrorHandler An error occurred while communicating with Figo, reason: FigoError{code=40001, description='Bank unknown', group='figo', message='This bank code is unknown to us, or doesn't operate in this country.', name='Not Found'}
